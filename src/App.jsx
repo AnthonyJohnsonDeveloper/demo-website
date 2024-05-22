@@ -4,11 +4,10 @@ import NavBar from "./Components/NavBar"
 
 function App() {
   return (
-    <div className="">
+    
+    <div>
       <NavBar />
-      <div className="bg-black h-[100vh]">
-
-      </div>
+      <div className="bg-black h-[100vh]"></div>
     </div>
   );
 }
