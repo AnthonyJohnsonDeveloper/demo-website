@@ -1,14 +1,19 @@
-import NavBar from "./Components/NavBar"
-
+import NavBar from "./Components/NavBar";
+import Home from "./Components/Home";
 
 
 function App() {
   return (
-    
     <div>
       <NavBar />
-      <div className="bg-black h-[100vh]"></div>
+
+      <main>
+        <div id="home">
+          <Home />
+        </div>
+      </main>
     </div>
+    
   );
 }
 
