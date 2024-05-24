@@ -23,7 +23,7 @@ function Home() {
 
         <div className="absolute bg-white px-8 py-2 bottom-0 -left-10 rounded-full">
           <h2>Lorem ipsum</h2>
-        </div>
+          </div>
       </div>
     </div>
   );
