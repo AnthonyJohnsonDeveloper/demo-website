@@ -3,7 +3,8 @@ import Home from "./Components/Home";
 import Menu from "./Components/Menu"
 import About from "./Components/About";
 import Product from "./Components/Product"
-
+import Review from "./Components/Review";
+import Footer from "./Components/Footer"
 
 
 function App() {
@@ -27,7 +28,13 @@ function App() {
         <div id="products">
           <Product />
         </div>
+
+        <div id="review">
+          <Review />
+        </div>
       </main>
+
+      <Footer />
     </div>
     
   );
